@@ -80,11 +80,6 @@ Este proyecto consiste en el desarrollo de una plataforma de comercio electróni
 ## MER
 [Mer](https://drive.google.com/file/d/1skumfDmUTfS7Hx5zG--DYWZKe6vJs6Tw/view?usp=sharing)
 
-##
-![merImgPng](./img/databaseRender.drawio.png)
-##
-![merImgXml](./img/databaseRender.drawio.xml)
-
 # gdGauges (English)
 
 ## *Project Description:*
@@ -167,9 +162,5 @@ This project involves the development of an e-commerce platform dedicated to sel
 ## MER
 [Mer](https://drive.google.com/file/d/1skumfDmUTfS7Hx5zG--DYWZKe6vJs6Tw/view?usp=sharing)
 
-##
-![merImgPng](./img/databaseRender.drawio.png)
-##
-![merImgXml](./img/databaseRender.drawio.xml)
 
 ![logo](https://cdn.icon-icons.com/icons2/2699/PNG/512/mysql_logo_icon_169941.png)
