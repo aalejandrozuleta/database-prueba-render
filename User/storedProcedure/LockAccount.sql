@@ -16,5 +16,4 @@ BEGIN
         UPDATE USER SET login_attempts = current_attempts + 1 WHERE email_user = p_user_email;
     END IF;
 END //
-
 DELIMITER ;

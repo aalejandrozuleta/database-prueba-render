@@ -1,5 +1,5 @@
 -- Procedimiento para olvidar la contraseña
-DELIMITER / / 
+DELIMITER // 
 CREATE PROCEDURE ForgetPassword(
   IN p_email varchar(60),
   IN p_phone varchar(12),
@@ -13,4 +13,5 @@ WHERE
   email_user = p_email
   AND phone_user = p_phone;
 
-END / / DELIMITER;
+END // 
+DELIMITER;
