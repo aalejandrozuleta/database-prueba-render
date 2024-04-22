@@ -1,17 +1,15 @@
--- Procedimiento para olvidar la contraseña
 DELIMITER // 
-CREATE PROCEDURE ForgetPassword(
-  IN p_email varchar(60),
-  IN p_phone varchar(12),
-  IN p_new_password varchar(100)
-) BEGIN
-UPDATE
-  USER
-SET
-  password_user = p_new_password
-WHERE
-  email_user = p_email
-  AND phone_user = p_phone;
 
+-- Procedimiento para olvidar la contraseña
+CREATE PROCEDURE ForgetPassword(
+  IN p_id_user INT,
+  IN p_new_password VARCHAR(100)
+) 
+BEGIN
+  UPDATE USER
+  SET password_user = p_new_password
+  WHERE id_user = p_id_user;
 END // 
-DELIMITER;
+
+-- Restaurar el delimitador predeterminado
+DELIMITER ;

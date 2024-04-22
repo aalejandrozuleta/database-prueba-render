@@ -1,0 +1,5 @@
+CREATE EVENT DeleteExpiredTokens 
+ON SCHEDULE EVERY 5 MINUTE 
+DO
+  DELETE FROM USERTOKEN
+  WHERE expiration <= NOW();
